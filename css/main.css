@@ -278,8 +278,8 @@ footer:after {
 }
 .link-header {
     text-transform: uppercase;
-    font-size: 16px;
     font-weight: 700;
+    font-size: 16px;
     margin-bottom: 15px;
 }
 footer a {
@@ -291,21 +291,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-.social ul li {
-    display: inline-block;
-}
-.social ul li a {
-    display: block;
-    width: 23px;
-    height: 23px;
-    background-size: 23px 23px;
-    background-position: center;
-}
-.twitter { background-image: url('../img/twitter.svg'); }
-.instagram { background-image: url('../img/instagram.svg'); }
-.pinterest { background-image: url('../img/pinterest.svg'); }
-.facebook { background-image: url('../img/facebook.svg'); }
-
 .newsletter .link-header {
     font-size: 12px;
     font-weight: 400;
@@ -328,6 +313,21 @@ footer a:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.social ul li {
+    display: inline-block;
+}
+.social ul li a {
+    display: block;
+    width: 23px;
+    height: 23px;
+    background-size: 23px 23px;
+    background-position: center;
+}
+
+.twitter { background-image: url('../img/twitter.svg'); }
+.instagram { background-image: url('../img/instagram.svg'); }
+.pinterest { background-image: url('../img/pinterest.svg'); }
+.facebook { background-image: url('../img/facebook.svg'); }
 
 .ps {
     flex: 0 0 25%;
