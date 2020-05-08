@@ -1,0 +1,147 @@
+
+> htmlcss-landingpage@1.0.0 test /Users/vanhendrickson/Documents/GitHub/HTMLCSS-LandingPage
+> cross-env NODE_ENV=test mocha './test/unit/*.test.js' || true
+
+
+
+  Utility Classes
+    ✓ `main.css` should contain a `.container` class @container
+    ✓ `main.css` should contain a `.container` class, it should be used in `index.html` @container-class-attribute
+    1) `main.css` should contain a `section` element selector, setting all `section` elements to flex containers @sections-flex
+    ✓ `main.css` should contain the classes, `.flex`, `.flex-column`, and `.flex-one` @flex-utilities
+    2) `main.css` should contain a `.flex` class, it should be used in `index.html` @flex-utilities-class-attribute
+    3) `main.css` should contain the classes, `.flex-column`, and `.flex-one`, they should be used in `index.html` @flex-column-one-class-attributes
+    ✓ `main.css` should contain the classes, `.align-center`, `.center`, and `.space-between` @flex-alignment-utilities
+    4) `main.css` should contain a `.align-center` class, it should be used in `index.html` @flex-alignment-utilities-class-attributes
+    5) `main.css` should contain the classes, `.center`, and `.space-between`, they should be used in `index.html` @flex-space-between-utilities-class-attribute
+    6) `main.css` should contain the classes, `.btn`, `.btn-default`, and `.btn-primary` @button-utilities
+    ✓ `main.css` should contain the classes, `.btn`, `.btn-default`, and `.btn-primary`, they should be used in `index.html` @button-utilities-class-attribute
+    ✓ `main.css` should contain a `.form-control` class @form-controls
+    ✓ `main.css` should contain a `.form-control` class, it should be used in `index.html` @form-controls-class-attribute
+    ✓ `main.css` should contain the classes, `.text-light`, `.text-secondary`, and `.text-primary` @typography-utilities
+    ✓ `main.css` should contain the classes, `.text-light`, and `.text-secondary`, they should be used in `index.html` @typography-utilities-class-attributes
+    ✓ `main.css` should contain a `.text-primary` class, it should be used in `index.html` @typography-utilities-primary-class-attribute
+
+  Header & Navigation
+    ✓ `main.css` should contain a `.header-nav` class @header
+    ✓ `main.css` should contain a `.brand` class @brand
+    ✓ `main.css` should contain a `.logo` class @logo
+    ✓ `main.css` should contain the classes, `.header-nav`, `.brand`, and `.logo`, they should be used in `index.html` @header-brand-logo-class-attributes
+    ✓ `main.css` should contain a `.search-box` class @search-box
+    ✓ `main.css` should contain a `.search-button` class @search-button
+    ✓ `main.css` should contain the classes, `.search-box`, and `.search-button`, they should be used in `index.html` @search-class-attributes
+    ✓ `main.css` should contain a `.nav-list` class @navigation-list
+    ✓ `main.css` should contain a rule with a selector of `.nav-list li a` @navigation-list-links
+    ✓ `main.css` should contain a `.nav-list` class, it should be used in `index.html` @navigation-list-class-attribute
+    ✓ `main.css` should contain rules with the selectors, `.profile`, `.account`, and `.account a` @profile
+    ✓ `main.css` should contain rules with the selectors, `.profile-pic`, and `.profile-pic img` @profile-picture
+    ✓ `main.css` should contain the classes, `.profile`, `.account`, and `.profile-pic`, they should be used in `index.html` @profile-class-attribute
+
+  Hero, Sales Banner, & Categories
+    ✓ `main.css` should contain a `.hero` class @hero-section
+    ✓ `main.css` should contain rules with the selectors, `.hero h1, .hero h2`, `.hero h1`, and `.hero h2` @hero-headings
+    ✓ `main.css` should contain a rule with a selector of `.hero p` @hero-paragraph
+    ✓ `main.css` should contain a `.hero` class, it should be used in `index.html` @hero-class-attribute
+    ✓ `main.css` should contain rules with the selectors, `.banner`, and `.banner img` @banner-container-image
+    ✓ `main.css` should contain a `.hero` class @banner-text
+    ✓ `main.css` should contain a rule with a selector of `.hero` @banner-text-last-child
+    ✓ `main.css` should contain rules with the selectors, `.banner`, and `.banner img`, they should be used in `index.html` @banner-class-attributes
+    ✓ `main.css` should contain a `.hero p` class @category
+    ✓ `main.css` should contain a `.hero p` class @category-text
+    ✓ `main.css` should contain a rule with a selector of `.hero p`  @category-text-divs
+    ✓ `main.css` should contain a rule with a selector of `.category-text h3` @category-headings
+    ✓ `main.css` should contain rules with the selectors, `.category`, and `.category-text`, they should be used in `index.html` @category-class-attributes
+
+  Full Banner
+    ✓ `main.css` should contain a `.full-banner` class @full-banner-container
+    ✓ `main.css` should contain a rule with a selector of `.full-banner:before` @full-banner-border
+    ✓ `main.css` should contain a `.full-banner-image` class @full-banner-image
+    ✓ `main.css` should contain a `.full-banner-sidebar` class @full-banner-sidebar
+    ✓ `main.css` should contain a rule with a selector of `.full-banner-sidebar h4` @full-banner-sidebar-heading
+    ✓ `main.css` should contain a rule with a selector of `.full-banner-sidebar h4:after` @full-banner-sidebar-text-decoration
+    ✓ `main.css` should contain rules with the selectors, `.full-banner-sidebar > div:nth-of-type(1)`, and `.full-banner-sidebar > div:nth-of-type(2)` @full-banner-sidebar-styling
+    ✓ `main.css` should contain a rule with a selector of `.full-banner-sidebar .btn.btn-default` @full-banner-sidebar-button
+    ✓ `main.css` should contain the classes, `.full-banner`, `.full-banner-image`, and `.full-banner-sidebar`, they should be used in `index.html` @full-banner-class-attributes
+
+  Footer
+    ✓ `main.css` should contain a rule with a selector of `footer` @footer
+    ✓ `main.css` should contain a rule with a selector of `footer:after` @footer-sidebar
+    ✓ `main.css` should contain a `.lists` class @lists
+    ✓ `main.css` should contain a `.link-header` class @link-headers
+    ✓ `main.css` should contain rules with the selectors, `footer a`, and `footer a:hover` @links
+    ✓ `main.css` should contain the classes, `.lists`, and `.link-header`, they should be used in `index.html` @link-class-attributes
+    ✓ `main.css` should contain rules with the selectors, `.social ul li`, and `.social ul li a` @social-links
+    ✓ `main.css` should contain the classes, `.twitter`, `.facebook`, `.instagram`, and `.pinterest` @social-icons
+    ✓ `main.css` should contain the classes, `.twitter`, `.facebook`, `.instagram`, and `.pinterest`, they should be used in `index.html` @social-class-attributes
+    ✓ `main.css` should contain rules with the selectors, `.newsletter .link-header`, and `.newsletter .link-subheader` @newsletter-headers
+    ✓ `main.css` should contain rules with the selectors, `.newsletter input`, and `.newsletter button` @newsletter-form
+    7) `main.css` should contain rules with the selectors, `.newsletter .link-header`, and `.newsletter .link-subheader`, they should be used in `index.html` @newsletter-class-attributes
+    ✓ `main.css` should contain rules with the selectors, `.ps`, and `.ps img` @pluralsight-demo-container
+    8) `main.css` should contain the classes, `.demo`, and `.demo:before` @pluralsight-demo-styles
+    ✓ `main.css` should contain a `.copyright` class @copyright
+    9) `main.css` should contain the classes, `.ps`, `.demo`, and `.copyright`, they should be used in `index.html` @pluralsight-demo-class-attributes
+
+
+  58 passing (209ms)
+  9 failing
+
+  1) Utility Classes
+       `main.css` should contain a `section` element selector, setting all `section` elements to flex containers @sections-flex:
+     AssertionError: It seems that you are missing a rule with a selector of section.
+      at Context.<anonymous> (test/unit/module1.test.js:22:5)
+      at processImmediate (internal/timers.js:456:21)
+
+  2) Utility Classes
+       `main.css` should contain a `.flex` class, it should be used in `index.html` @flex-utilities-class-attribute:
+     AssertionError: The first `<div>` in the `<!-- PROFILE -->` block does not have a class of `flex`.
+      at Context.<anonymous> (test/unit/module1.test.js:37:5)
+      at processImmediate (internal/timers.js:456:21)
+
+  3) Utility Classes
+       `main.css` should contain the classes, `.flex-column`, and `.flex-one`, they should be used in `index.html` @flex-column-one-class-attributes:
+     AssertionError: The first `<div>` in the `<!-- SEARCH -->` block does not have a class of `flex-one`.
+      at Context.<anonymous> (test/unit/module1.test.js:52:5)
+      at processImmediate (internal/timers.js:456:21)
+
+  4) Utility Classes
+       `main.css` should contain a `.align-center` class, it should be used in `index.html` @flex-alignment-utilities-class-attributes:
+     AssertionError: The first `<div>` in the `<!-- HERO -->` `<section>` does not have a class of `align-center`.
+      at Context.<anonymous> (test/unit/module1.test.js:66:5)
+      at processImmediate (internal/timers.js:456:21)
+
+  5) Utility Classes
+       `main.css` should contain the classes, `.center`, and `.space-between`, they should be used in `index.html` @flex-space-between-utilities-class-attribute:
+     AssertionError: The first `<section>` in the `<footer>` does not have a class of `space-between`.
+      at Context.<anonymous> (test/unit/module1.test.js:80:5)
+      at processImmediate (internal/timers.js:456:21)
+
+  6) Utility Classes
+       `main.css` should contain the classes, `.btn`, `.btn-default`, and `.btn-primary` @button-utilities:
+     AssertionError: It looks like your `Button` rule is missing the following:
+
+- `cursor: pointer`
+      at Context.<anonymous> (test/unit/module1.test.js:84:5)
+      at processImmediate (internal/timers.js:456:21)
+
+  7) Footer
+       `main.css` should contain rules with the selectors, `.newsletter .link-header`, and `.newsletter .link-subheader`, they should be used in `index.html` @newsletter-class-attributes:
+     AssertionError: The `<div>` with the contents `Email Updates` does not have a class of `link-header`.
+      at Context.<anonymous> (test/unit/module5.test.js:90:5)
+      at processImmediate (internal/timers.js:456:21)
+
+  8) Footer
+       `main.css` should contain the classes, `.demo`, and `.demo:before` @pluralsight-demo-styles:
+     AssertionError: It looks like your `Demo Before` rule is missing the following:
+
+- `background: linear-gradient(to right,#f05a28 0,#e80a89 100%)`
+      at Context.<anonymous> (test/unit/module5.test.js:103:5)
+      at processImmediate (internal/timers.js:456:21)
+
+  9) Footer
+       `main.css` should contain the classes, `.ps`, `.demo`, and `.copyright`, they should be used in `index.html` @pluralsight-demo-class-attributes:
+     AssertionError: The nested `<div>` in the `<!-- PS DEMO -->` `<section>` in the `<footer>` does not have a class of `demo`.
+      at Context.<anonymous> (test/unit/module5.test.js:116:5)
+      at processImmediate (internal/timers.js:456:21)
+
+
+
